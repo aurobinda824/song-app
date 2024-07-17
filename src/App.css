@@ -1,0 +1,110 @@
+html, body, #root
+{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.app
+{
+    height: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+.sec
+{
+    background-color: rgb(30, 30, 30);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.header
+{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10%;
+}
+
+.header .input, .submit, .login
+{
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 50%;
+}
+
+.header .input
+{
+    font-size: 20px;
+    width: 30%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.header .submit
+{
+    width: 10%;
+    border-radius: 0px 10px 10px 0px;
+    background-color: green;
+    font-size: 20px;
+}
+
+.header .login
+{
+    width: 10%;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: green;
+    margin-left: 10%;
+}
+
+.panel
+{
+    width: 25%;
+}
+
+::-webkit-scrollbar
+{
+    width: 1%;
+}
+
+.result
+{
+    overflow: auto;
+    flex: 1;
+}
+
+.result .songs
+{
+    display: flex;
+    height: 20%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    background-color: green;
+}
+
+.result .songs .thumbnail
+{
+    height: 90%;
+    margin: 1%;
+}
+
+.result .songs p
+{
+    margin: 0;
+    margin-top: 1%;
+}
+
+.result .songs .name
+{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+}
