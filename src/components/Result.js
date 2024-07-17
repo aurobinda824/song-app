@@ -35,7 +35,7 @@ class Result extends Component
             for (let i = 0; i < this.state.data['tracks']['items'].length; i++)
             {
                 songs.push(<div key={i} className="songs">
-                    <img className='thumbnail' src={this.state.data['tracks']['items'][i]['data']['albumOfTrack']['coverArt']['sources'][0]['url']}/>
+                    <img className='thumbnail' src={this.state.data['tracks']['items'][i]['data']['albumOfTrack']['coverArt']['sources'][0]['url']} alt="image"/>
                     <div style={{flexDirection:'column'}}>
                     <p className="name">{this.state.data['tracks']['items'][i]['data']['name']}</p>
                     <p className="artist">.{this.state.data['tracks']['items'][i]['data']['artists']['items'][0]['profile']['name']}</p>
